@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/png">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FILMSEARCH - Поиск любимого кино</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">      
+            <div class="header-body">
+                <div class="header-logo">
+                    <a class="header-title" href="index.html" draggable="false">FilmSearch</a>
+                </div>
+                <div class="header-burger">
+                    <span></span>
+                </div>
+                <nav class="header-menu">
+                    <ul class="header-list">
+                        <li class="header-link nav-main">
+                            <a href="#">На главную</a>
+                        </li>
+                        <li class="header-link nav-day">
+                            <a href="#">Тренды дня</a>
+                        </li>
+                        <li class="header-link nav-week">
+                            <a href="#">Тренды недели</a>
+                        </li>
+                        <li class="header-link nav-announcements">
+                            <a href="#">Скоро в кинотеатрах</a>
+                        </li>
+                        <li class="header-link nav-contacts">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>   
+        </header>
+        <form class="search-form">
+            <input type="text" class="search-text" placeholder="Введите название...">
+            <img class="search-icon" src="./img/search-icon.png" alt="search-icon" draggable="false">
+        </form>
+        <div class="list-title"></div>
+        <div class="movie-list"></div>
+    </div>
+    <div class="modal">
+        <div class="modal-content"></div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
