@@ -10,6 +10,7 @@ body {
     background: -moz-linear-gradient(left, #faeaea, #f8dadaa6, #b2e9ff85, #a3e2ff6e, #80c8df33);
     background-size: cover;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 calc(20px - (100vw - 100%)) 0 0;
 }
 
 .container {
