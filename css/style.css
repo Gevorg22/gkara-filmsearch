@@ -283,7 +283,8 @@ video {
 }
 
 .contact-icon {
-    max-width: 23px;
+    width: 23px;
+    height: 23px;
     margin-right: 10px;
 }
 .contact-page:hover {
