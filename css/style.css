@@ -336,7 +336,11 @@ video {
 }
 
 @media (max-width: 768px){
-    body.lock {
+    body {
+        padding: 0;
+    }
+    
+    body .lock {
         overflow: hidden;
     }
 
