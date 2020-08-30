@@ -498,4 +498,7 @@ video {
         margin-top: 20px;
         margin-right: 20px;
     }
+    .modal {
+        background-color: rgb(204, 183, 183);
+    }
 }
