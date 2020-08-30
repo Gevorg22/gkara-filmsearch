@@ -484,7 +484,7 @@ video {
 
 @media (max-width: 576px){
     .modal {
-        background-color: rgb(204, 183, 183);
+        background-color: rgb(190, 158, 158);
     }
     .modal-content {
         max-width: 80%;
