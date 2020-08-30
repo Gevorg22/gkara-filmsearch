@@ -2,6 +2,10 @@ html {
     box-sizing: border-box;
 }
 
+@viewport {
+  user-zoom: fixed;
+}
+
 body {
     background-color: #ffffff;
     background: linear-gradient(left, #faeaea, #f8dadaa6, #b2e9ff85, #a3e2ff6e, #80c8df33);
