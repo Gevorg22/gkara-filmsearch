@@ -292,6 +292,7 @@ movieList.addEventListener('click', event => {
     const target = event.target;
     const cardItem = target.closest('img[data-id]');
     if(cardItem) {
+        document.body.style.height = '100%';
         document.body.style.overflow = 'hidden';
         modal.style.display = 'flex';
     }
