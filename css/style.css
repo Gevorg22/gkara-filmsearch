@@ -100,6 +100,7 @@ a {
     margin-top: 30px;
     text-align: center;
     text-transform: uppercase;
+    cursor: default;
 }
 
 .list-main h1 {
@@ -129,6 +130,7 @@ video {
     justify-content: center;
     font-size: 22px;
     color: #444444;
+    cursor: default;
 }
 
 .list-title__info {
@@ -147,6 +149,7 @@ video {
     font-size: 18px;
     color: rgb(197, 67, 67);
     text-transform: uppercase;
+    cursor: default;
 }
 
 .cardlist {
@@ -158,6 +161,7 @@ video {
 
 .cardlist h4 {
     margin-top: 15px;
+    cursor: default;
 }
 
 .img-poster {
@@ -227,7 +231,7 @@ video {
 .card {
     display: flex;
     max-height: 600px;
-    overflow: auto;
+    overflow-y: auto;
 }
 
 .card-img {
@@ -257,6 +261,7 @@ video {
     margin-left: 25px;
     letter-spacing: 1px;
     text-shadow: 2px 2px 4px rgb(255, 209, 209);
+    cursor: default;
 }
 
 .card-title {
