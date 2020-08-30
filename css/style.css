@@ -483,6 +483,9 @@ video {
 }
 
 @media (max-width: 576px){
+    .modal {
+        background-color: rgb(204, 183, 183);
+    }
     .modal-content {
         max-width: 80%;
         margin-left: 12px;
@@ -497,8 +500,5 @@ video {
     .card-info {
         margin-top: 20px;
         margin-right: 20px;
-    }
-    .modal {
-        background-color: rgb(204, 183, 183);
     }
 }
