@@ -55,7 +55,7 @@ a {
 .header-list {
     display: flex;
     list-style: none;
-    text-shadow: 2px 2px 3px rgb(184, 175, 175);
+    color: black;
     padding-left: 0;
 }
 
@@ -80,7 +80,7 @@ a {
 
 .search-text {
     background: rgba(206, 206, 206, 0.4);
-    text-shadow: 2px 2px 3px rgb(247, 200, 200);
+    color: black;
     width: 100%;
     border-radius: 20px;
     padding: 16px 18px 16px 23px;
@@ -104,12 +104,12 @@ a {
 }
 
 .list-main h1 {
-    text-shadow: 2px 2px 4px rgb(248, 188, 188);
+    color: black;
     margin-bottom: 10px;
 }
 
 .list-main h3 {
-    text-shadow: 2px 2px 4px rgb(248, 188, 188);
+    color: black;
     margin-top: 10px;
 }
 
@@ -136,7 +136,7 @@ video {
 .list-title__info {
     margin: 55px 0 35px 0;
     text-transform: uppercase;
-    text-shadow: 2px 2px 3px rgb(184, 175, 175);
+    color: black;
 }
 
 .movie-list {
@@ -260,7 +260,7 @@ video {
     flex-direction: column;
     margin-left: 25px;
     letter-spacing: 1px;
-    text-shadow: 2px 2px 4px rgb(255, 209, 209);
+    color: black;
     cursor: default;
 }
 
