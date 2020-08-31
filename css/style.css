@@ -42,20 +42,14 @@ a {
 
 .header-title {
     font-size: 40px;
-    cursor: pointer;
-    text-shadow: 2px 2px 3px rgb(0, 0, 0);
-    transition: all 0.5s ease 0s;
-}
-.header-title:hover {
-    text-shadow: 2px 2px 3px rgb(37, 32, 29);
-    color: rgb(155, 73, 19);
-    transition: all 0.5s ease 0s;
+    text-shadow: 2px 2px 3px rgb(24, 23, 23);
+    cursor: default;
 }
 
 .header-list {
     display: flex;
     list-style: none;
-    color: black;
+    text-shadow: 2px 2px 3px rgb(184, 175, 175);
     padding-left: 0;
 }
 
@@ -80,7 +74,6 @@ a {
 
 .search-text {
     background: rgba(206, 206, 206, 0.4);
-    color: black;
     width: 100%;
     border-radius: 20px;
     padding: 16px 18px 16px 23px;
@@ -104,12 +97,10 @@ a {
 }
 
 .list-main h1 {
-    color: black;
     margin-bottom: 10px;
 }
 
 .list-main h3 {
-    color: black;
     margin-top: 10px;
 }
 
@@ -136,7 +127,7 @@ video {
 .list-title__info {
     margin: 55px 0 35px 0;
     text-transform: uppercase;
-    color: black;
+    color: #252525;
 }
 
 .movie-list {
@@ -162,6 +153,7 @@ video {
 .cardlist h4 {
     margin-top: 15px;
     cursor: default;
+    color: #303030;
 }
 
 .img-poster {
@@ -248,6 +240,7 @@ video {
 
 .card-page a {
     transition: all 0.5s ease 0s;
+    color: #252525;
 }
 .card-page a:hover {
     text-shadow: 1px 1px 2px rgb(82, 53, 53);
@@ -260,7 +253,7 @@ video {
     flex-direction: column;
     margin-left: 25px;
     letter-spacing: 1px;
-    color: black;
+    color: #252525;
     cursor: default;
 }
 
