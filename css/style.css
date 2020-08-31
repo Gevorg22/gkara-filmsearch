@@ -43,7 +43,7 @@ a {
 .header-title {
     font-size: 40px;
     text-shadow: 2px 2px 3px rgb(24, 23, 23);
-    cursor: default;
+    cursor: pointer;
 }
 
 .header-list {
