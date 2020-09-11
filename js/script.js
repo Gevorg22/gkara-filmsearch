@@ -52,7 +52,7 @@ function apiSearch(event){
         })
         .catch((reason) => {
             movieList.innerHTML = '<h4 class="search-alert">Произошла ошибка, повторите запрос позже</h4>';
-            console.log('error: ' + reason);
+            console.error(reason);
         });
 }
 
@@ -101,7 +101,7 @@ function showTrendDay () {
         })
         .catch(reason => {
             movieList.innerHTML = '<h4 class="search-alert">Произошла ошибка, повторите запрос позже</h4>';
-            console.log('error: ' + reason);
+            console.error(reason);
         });
 };
 
@@ -135,7 +135,7 @@ function showTrendWeek() {
         })
         .catch(reason => {
             movieList.innerHTML = '<h4 class="search-alert">Произошла ошибка, повторите запрос позже</h4>';
-            console.log('error: ' + reason);
+            console.error(reason);
         });
 };
 
@@ -169,7 +169,7 @@ function showAnnouncements() {
         })
         .catch(reason => {
             movieList.innerHTML = '<h4 class="search-alert">Произошла ошибка, повторите запрос позже</h4>';
-            console.log('error: ' + reason);
+            console.error(reason);
         });
 };
 
@@ -260,7 +260,7 @@ function showCard() {
         })
         .catch(reason => {
             movieList.innerHTML = '<h4 class="search-alert">Произошла ошибка, повторите запрос позже</h4>';
-            console.log('error: ' + reason);
+            console.error(reason);
         });
 };
 
